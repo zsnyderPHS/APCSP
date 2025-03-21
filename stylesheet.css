@@ -1,0 +1,59 @@
+.heading {
+	padding: 60px;
+	font-size: 25px;
+	text-align: center;
+	background: paleturquoise;
+}
+
+.section-phs {
+	background-color: turquoise;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.section-cross-country {
+	background-color: mediumturquoise;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.section-debate {
+	background-color: cadetblue;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.section-mock-trial {
+	background-color: steelblue;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.section-robotics {
+	background-color: royalblue;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.section-show {
+	background-color: cornflowerblue;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+img:hover {
+/* The code below, which was written by ChatGPT at my request, adds a hover effect to my images to make them feel more interactive by changing an image's opacity, scale, and adding a subtle animation to it when the user hovers over it. */
+   	opacity: 0.8;
+    transform: scale(1.05);
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+img {
+/* Another bonus feature that ChatGPT assisted me in coding was adding borders around each image to make them more distinct in comparison to the rest of the page. */
+	border: 3px solid #ccc;
+    border-radius: 10px;
+    border-color: black;
+/* Finally, ChatGPT suggested that I further stylize my images by rounding their corners, the code for which has been pasted below: */
+    border-radius: 15px;
+    border-color: black;
+}
